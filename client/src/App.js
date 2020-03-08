@@ -6,8 +6,8 @@ function App() {
     <BrowserRouter>
       <div className="App">
         <Route path="/" exact>
-          home page
-          <Link to="/api/test">go to /api/test</Link>
+          <h1>home page</h1>
+          <a href="/api/test">go to /api/test</a>
         </Route>
         <Route path="/test" exact>
           test copomnetn
